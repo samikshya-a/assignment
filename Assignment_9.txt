@@ -1,0 +1,43 @@
+QUESTION 1
+Ans:-
+A relative path refers to the path of a file or directory relative to the current working directory or another specified directory. It does not start with the root directory but instead provides a path relative to the current location.
+
+QUESTION 2
+Ans:-
+An absolute path typically starts with a drive letter (such as "C:" on Windows) or the root directory symbol ("/" on Unix-like systems). It specifies the complete path from the root directory to a file or directory, regardless of the current working directory.
+
+QUESTION 3
+Ans:-
+In Python, the functions os.getcwd() and os.chdir() are part of the os module, which deals with operating system-related functionalities.
+->os.getcwd() returns a string representing the current working directory (the directory from which the script is currently running).
+->os.chdir(path) changes the current working directory to the specified path.
+
+QUESTION 4
+Ans:-
+The ".and." and ".." folders are not standard folders in a file system. They might be specific to the context you are referring to or an example you encountered. Without further information, it's difficult to determine their exact purpose or meaning.
+
+QUESTION 5
+Ans:-
+In the path "C:\bacon\eggs\spam.txt":
+The directory name (dir name) is "C:\bacon\eggs".
+The base name refers to the actual file name without the directory path, so it would be "spam.txt".
+
+QUESTION 6
+Ans:-
+The open() function in Python can take three "mode" arguments:
+
+->"r": Read mode. Opens a file for reading (default mode if not specified). If the file does not exist, it raises a FileNotFoundError.
+->"w": Write mode. Opens a file for writing. If the file exists, it truncates its contents. If the file doesn't exist, it creates a new file.
+->"a": Append mode. Opens a file for appending data. If the file exists, it seeks to the end of the file. If the file doesn't exist, it creates a new file.
+
+QUESTION 7
+Ans:-
+If an existing file is opened in write mode ("w"), the contents of the file will be truncated (erased) and replaced with the new data being written. If the file does not exist, a new file will be created.
+
+QUESTION 8
+Ans:-
+The read() method is used to read the entire contents of a file as a single string, while the readlines() method is used to read the contents of a file line by line and returns a list of strings, where each element represents a line in the file.
+
+QUESTION 9
+Ans:-
+A shelf value in Python resembles a dictionary. It is an object that acts like a persistent dictionary, allowing you to store and retrieve key-value pairs. It provides methods to store, retrieve, and delete data using keys, similar to a dictionary. The shelve module in Python allows you to create and manipulate shelf values.
